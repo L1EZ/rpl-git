@@ -72,4 +72,14 @@ public class Calculator {
     public float min(float a, float b){
         return (a<b)? a:b;
     }
+    
+    /**
+     * Method ini berguna untuk mengembalikan nilai terbesar dari 2 bilangan
+     * @param a bilangan pertama
+     * @param b bilangan kedua
+     * @return bilangan terbesar antara a atau b;
+     */
+    public float max(float a, float b){
+        return a>b?a:b;
+    }
 }
