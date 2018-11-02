@@ -61,4 +61,15 @@ public class Calculator {
         }
         return a/b;
     }
+    
+    /**
+     * Find the most minimum value on given 2 numbers.
+     * 
+     * @param a a
+     * @param b b
+     * @return the most minimum number.
+     */
+    public float min(float a, float b){
+        return (a<b)? a:b;
+    }
 }
