@@ -24,13 +24,28 @@ public class Calculator {
         
     }
     
+    /**
+     * Multiplies between 2 numbers.
+     * @param a a
+     * @param b b
+     * @return a*b
+     */
     public float multiply(float a, float b){
-        
-        
+        return a*b;
     }
     
+    /**
+     * Divide between 2 given numbers.
+     * 
+     * This method will eventually returns 0 whenever b is 0.
+     * @param a a
+     * @param b b
+     * @return a/b
+     */
     public float division(float a, float b){
-        
-        
+        if(b==0) {
+            return 0;
+        }
+        return a/b;
     }
 }
